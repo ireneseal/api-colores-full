@@ -1,0 +1,8 @@
+api colores con mongo
+
+GET /colores --> []
+POST /colores/nuevo --> {id} | {r,g,b}
+DELETE /colores/borrar/id --> { resultado : ok || ko}
+
+{error : "not found"}
+{error : "error en la peticion"}
