@@ -7,7 +7,7 @@ const { getColores, borrarColor, crearColor } = require("./mongodb");
 
 servidor.use(cors());
 
-servidor.use("/cualquiercosa", express.static("./pruebas")); // Si en la url escribo "cualquiercosa", entonces mostrará el index estático que está dentro de la carpeta pruebas
+//servidor.use("/cualquiercosa", express.static("./pruebas")); // Si en la url escribo "cualquiercosa", entonces mostrará el index estático que está dentro de la carpeta pruebas
 
 servidor.use(json());
 
